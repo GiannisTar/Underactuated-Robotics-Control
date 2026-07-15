@@ -14,7 +14,7 @@ Modeling and control of the classic cart-pole system: a pendulum that can only b
 
 ## System model
 
-![Inverted pendulum on a cart](assets/invertedCartPendulum.png){ width=50% }
+<img src="assets/invertedCartPendulum.png" alt="Inverted pendulum on a cart" width="350">
 
 State vector **x** = [x, ẋ, θ, θ̇], with x the cart position and θ the pendulum angle from vertical (θ = π is upright). The nonlinear equations of motion are derived with the Euler-Lagrange method from the system's kinetic and potential energy, then linearized about θ = π to get the A, B matrices used for LQR design. The full derivation (Lagrangian, equations for x and θ, matrix and state-space form) is in the report.
 
